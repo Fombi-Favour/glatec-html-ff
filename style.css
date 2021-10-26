@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+background-image: linear-gradient(rgba(0,0,0,0.85),rgba(0,0,0,0.85)),url(backgroung.jpg);
+background-size: cover;
+background-position: center;
+
+}
+
+.navBar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+
+}
+.navBar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navBar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+
+}
+.navBar ul li::after{
+    content: "";
+    height: 3px;
+    width: 0;
+    background: red;
+    position:absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.003s;
+}
+.navBar ul li:hover::after{
+width: 100%;
+
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color:white;
+}
+.title{
+    font-size: 70px;
+    line-height: 100px;
+    font-weight: bold;
+    height: 100px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.content p
+{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-family: sans-serif;
+}
+.slider{
+    color: green;
+    margin-left: 20px;
+    box-sizing: border-box;
+    animation: slider 5s linear infinite;
+}
+
