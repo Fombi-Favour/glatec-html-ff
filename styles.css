@@ -29,7 +29,7 @@ body
     border-radius: 50px;
     padding: 10px;
     margin: 10px 0;
-    width: 200px;
+    width: 250px;
     border: 1px solid #999;
     outline: none;
 }
@@ -45,6 +45,8 @@ button
 }
 .sign-btn
 {
+    width: 110px;
+    height: 25px;
     background:#1c8adb;
 }
 .google-btn
