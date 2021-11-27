@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLATEC-GreenLand Technology</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.icon" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+</head>
+<body>
+    
+    <section class="header">
+        <nav>
+            <img src="Images/logo.png">
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Login</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="content">
+            <div class="title">
+              Welcome to 
+              <div class="slider">
+                <div>GLATEC</div>  
+                <div>Technology</div>
+                <div>GreenLand</div>
+              </div>
+            </div>
+            <p>We give to you what you wish or more than that with much love, from <br> GLATEC</p>
+          </div>
+
+    </section>
+
+    <section class="mission">
+        <h1>Mission</h1>
+        <p>We are a group of tech who's ambition is to bring development into our world. 
+            <br> Making it a better place for the future</p>
+        <div class="row">
+            <div class="mission-col">
+                <h3>Offers</h3>
+                <p>We provide you with <br> web development, mobile apps, networking.</p>
+            </div>
+            <div class="mission-col">
+                <h3>Training</h3>
+              <p>we provide you with <br> adequate skills in order to become a better person in future.</p>
+            </div>
+        </div>
+    </section>
+
+   <section class="footer">
+       <h3>Location</h3>
+       <p>We are situated at BAMBILI</p>
+       <p>Copyright ©2021. All Rights Reserved</p>
+   </section>
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }        
+
+    </script>
+
+</body>
+</html>
