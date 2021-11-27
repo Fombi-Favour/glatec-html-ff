@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GLATEC-GreenLand Technology</title>
+    <link rel="stylesheet" href="css/style-contacts.css">
+    <link rel="shortcut icon" href="favicon.icon" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <section class="sub-header">
+        <nav>
+            <img src="Images/logo.png">
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Login</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>Contacts</h1>
+
+    </section>
+
+    <section class="location">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31743.4519755053!2d10.247497378755655!3d6.0041449738121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x105f40785bae094d%3A0xe1e64ca31b8d9546!2sBambili!5e0!3m2!1sen!2scm!4v1638050137266!5m2!1sen!2scm" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </section>
+
+    <section class="contact-us">
+        <h1>Connect with Us</h1>
+        <p>we are willing to get your worries no matter the issue <br> cause we are out to 
+            help you succeed. <br> feel free to get in touch with us.</p>
+
+        <div class="row">
+            <div class="contact-col">
+                <h3>Reach us at</h3>
+                <div>
+                    <i class="far fa-envelope"></i>
+                    <h5>email@ex.com</h5>
+                </div>
+                <div>
+                    <i class="fas fa-phone-alt"></i>
+                    <h5>+237 xxxxxxxxx</h5>
+                </div>
+            </div>
+            <div class="contact-col">
+
+                <form action="">
+                    <input type="text" placeholder="Enter your name" required>
+                    <input type="email" placeholder="Enter your email address" required>
+                    <input type="text" placeholder="Enter your subject" required>
+                    <textarea rows="8" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="col">
+                <img src="/Images/logo.png" class="logo">
+                <p>Thanks for coming here<p>Hope you enjoyed your visit on our website</p>  
+                <br> <h2>With much love, Glatec</h2> </p>
+            </div>
+            <div class="col">
+                <h3>Office <div class="underline"><span></span></div></h3>
+                    <p>Ringway street</p>
+                    <p>Bambili</p>
+                    <p>mile 10</p>
+                    <p class="email">email@ex.com</p>
+            </div>
+            <div class="col"><h3>Links <div class="underline"><span></span></div></h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">services</a></li>
+                    <li><a href="About.html">about us</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="contact.html">Login</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright © 2021 - All Rights Reserved</p>
+    </footer>
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }        
+
+    </script>
+
+</body>
+</html>
