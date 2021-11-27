@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 .head{
     color: green;
@@ -157,6 +158,7 @@ h3{
 .location{
     text-align: center;
     padding: 10px;
+    margin-left: 500px;
 }
 
 .area{
@@ -250,6 +252,8 @@ h3{
 .about{
     height: 50vh;
     width: 100%;
+    margin-left: 90px;
+    
  
  background: linear-gradient(rgba(3,5,12,0.78),rgba(3,5,12,0.78)),url(1-1.jpg);
     background-position: center;
@@ -261,6 +265,9 @@ h3{
     font-style: italic;
     
    
+}
+.first1-col{
+    width: 100%;
 }
         
     
@@ -281,6 +288,7 @@ h3{
     width: 80%;
     margin: 50px auto;
     padding: 70px;
+    margin-left: 100px;
 }
 
 .contact-box{
@@ -349,6 +357,7 @@ footer{
     border-top-left-radius: 125px;
     font-size: 13px;
     line-height: 0.8px;
+    
 }
 .row1{
     width: 85%;
@@ -379,6 +388,7 @@ font-style: italic;
     width: fit-content;
     border-bottom: 1px solid #ccc;
     margin: 20px 0;
+    padding-bottom: 300px;
 }
 
 ul li{
