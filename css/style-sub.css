@@ -79,12 +79,23 @@ nav .fas{
     padding-bottom: 50px;
 }
 .about-col{
-    flex-basis: 48%;
-    padding: 30px 2px;
+    flex-basis: 40%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    margin-left: 50px;
+
 }
+
 .about-col h1{
     color: rgb(138, 243, 96);
-    font-size: 38px;
+    font-size: 20px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
 }
 
 /***************** services page ******************/
@@ -152,5 +163,15 @@ nav .fas{
     }
     .row{
         flex-direction: column;
+    }
+    .about-col{
+        flex-basis: 40%;
+        background: #fff3f3;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        padding: 20px 12px;
+        box-sizing: border-box;
+        margin-left: 10px;
+    
     }
 }
