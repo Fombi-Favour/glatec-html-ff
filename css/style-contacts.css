@@ -245,7 +245,7 @@ hr{
         right: -200px;
         text-align: left;
         z-index: 2;
-        transition: 1s;
+        transition: 0.25s;
     }
     nav .fa{
         display: block;
@@ -258,12 +258,16 @@ hr{
         padding: 30px;
     }
     footer{
-        bottom: unset;
+        bottom:unset;
+        
     }
     .col{
         flex-basis: 100%;
     }
     .contact-col input, .contact-col textarea{
         width: 250px;
+    }
+    nav img{
+        width: 80px;
     }
 }
