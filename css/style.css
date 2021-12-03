@@ -148,6 +148,9 @@ nav .fas{
 
 /*************************** mobile view ************************/
 @media (max-width: 700px){
+    .content p{
+        font-size: 17px;
+    }
     .title{
         font-size: 28px;
     }
