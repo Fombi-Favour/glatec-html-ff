@@ -264,6 +264,9 @@ hr{
     .col{
         flex-basis: 100%;
     }
+    .contact-col{
+        margin-left: -25px;
+    }
     .contact-col input, .contact-col textarea{
         width: 250px;
     }
@@ -281,6 +284,6 @@ hr{
         flex-direction: column;
     }
     footer{
-        bottom: -300vw;
+        bottom: -320vw;
     }
 }
