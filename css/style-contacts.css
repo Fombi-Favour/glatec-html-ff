@@ -114,6 +114,11 @@ nav .fa{
     box-sizing: border-box;
 }
 
+.contact-col textarea{
+    height: 350px;
+    resize: none;
+}
+
 .hero-btn{
     display: inline-block;
     text-decoration: none;
@@ -143,7 +148,7 @@ nav .fa{
 footer{
     width: 100%;
     position: absolute;
-    bottom: -100vw;
+    bottom: -110vw;
     background: linear-gradient(to right, #00093c, #2d0b00);
     color: #fff;
     padding: 100px 0 30px;
@@ -258,7 +263,8 @@ hr{
         padding: 30px;
     }
     footer{
-        bottom:unset;
+        margin-top: 25px;
+        bottom: unset;
         
     }
     .col{
@@ -284,6 +290,6 @@ hr{
         flex-direction: column;
     }
     footer{
-        bottom: -320vw;
+        bottom: -330vw;
     }
 }
